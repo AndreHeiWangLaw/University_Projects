@@ -1,0 +1,41 @@
+     1                                  ; Andre Hei Wang Law
+     2                                  ; 4017 5600
+     3                                  ; heiwangandrelaw128@gmail.com
+     4                                  ; AL-X
+     5                                  ; June 10, 2021
+     6                                  
+     7                                  section .data
+     8                                  
+     9 00000000 030204010506            array db 3,2,4,1,5,6
+    10                                  
+    11                                  ; these 6 numbers represent a 2D array 
+    12                                  ; of 3 rows and 2 columns
+    13                                  ;	 array=	3 2
+    14                                  ;		4 1
+    15                                  ;		5 6
+    16                                  
+    17                                  section .bss
+    18                                  
+    19 00000000 ??                      element_value resb 1	; array [row index][column index]
+    20                                  
+    21                                  section .text
+    22                                  global _start
+    23                                  _start:
+    24 00000000 B000                    	mov al, 0	; al holds row index
+    25 00000002 B300                    	mov bl, 0	; bl holds column index
+    26                                  
+    27                                  	; displacement_value = ((row_index * #_of_columns) + column_index) * size_of_array_element
+    28                                  	; cl -> [array_offset_address + displacement_value]
+    29                                  
+    30                                  	; ax = al * number_of_columns (2)
+    31                                  	; al = al + bl
+    32                                  	; al = al * l 
+    33                                  	
+    34 00000004 89C6                    	mov esi, eax	; load displacement_value to eax
+    35 00000006 BD[00000000]            	mov ebp, array	; load array offset address to esi
+    36 0000000B 8A4C3500                	mov cl, [ebp + esi]
+    37 0000000F 880D[00000000]          	mov [element_value], cl
+    38                                  
+    39 00000015 B801000000              	mov eax,1
+    40 0000001A BB00000000              	mov ebx,0
+    41 0000001F CD80                    	int 80h
