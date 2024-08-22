@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/CMakeFiles/3.27.0-rc5/CMakeSystem.cmake
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/CMakeLists.txt
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/tmp/thirdparty-glfw-populate-mkdirs.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/PatchInfo.txt.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/RepositoryInfo.txt.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/UpdateInfo.txt.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/cfgcmd.txt.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/extractfile.cmake.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/mkdirs.cmake.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/shared_internal_commands.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/ExternalProject/verify.cmake.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/Platform/Windows.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake

@@ -1,0 +1,13 @@
+prefix=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/dist
+exec_prefix=${prefix}
+includedir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/dist/include
+libdir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/dist/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.3.2
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

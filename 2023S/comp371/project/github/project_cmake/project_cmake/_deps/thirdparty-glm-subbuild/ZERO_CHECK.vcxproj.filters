@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\50cf6d389b5ceed8919b1528df89f9b5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\thirdparty-glm-populate-prefix\tmp\thirdparty-glm-populate-mkdirs.cmake">
+      <Filter>Buildsystem Input Files\thirdparty-glm-populate-prefix\tmp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3929E841-4676-3DE4-A5EE-B003DF26562A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\thirdparty-glm-populate-prefix\tmp">
+      <UniqueIdentifier>{B0CD8176-3EA0-3A95-AA27-4BB42A6C89B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

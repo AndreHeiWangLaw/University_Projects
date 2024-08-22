@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-src/build/cmake/CMakeLists.txt
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-src/build/cmake/cmake_uninstall.cmake.in
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-src/glew.pc.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindOpenGL.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindPackageMessage.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/GNUInstallDirs.cmake

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/thirdparty-glm-populate"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/50cf6d389b5ceed8919b1528df89f9b5/thirdparty-glm-populate.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/2d91441cfd4b90cbd852b16bbdc9b966/thirdparty-glm-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-build.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-download.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-install.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-test.rule"
+		},
+		{
+			"file" : "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/d84320a87e70bfa36673983437b0afca/thirdparty-glm-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"thirdparty-glm-populate"
+		],
+		"name" : "thirdparty-glm-populate"
+	}
+}

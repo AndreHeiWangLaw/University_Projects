@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-update_disconnected.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-patch_disconnected.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\d84320a87e70bfa36673983437b0afca\thirdparty-glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\2d91441cfd4b90cbd852b16bbdc9b966\thirdparty-glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\50cf6d389b5ceed8919b1528df89f9b5\thirdparty-glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-subbuild\CMakeFiles\thirdparty-glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3929E841-4676-3DE4-A5EE-B003DF26562A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

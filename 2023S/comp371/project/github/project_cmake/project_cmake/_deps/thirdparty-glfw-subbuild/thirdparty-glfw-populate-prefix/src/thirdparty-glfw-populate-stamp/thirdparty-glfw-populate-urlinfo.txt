@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=D:/Programming/openGL/cmake/dir/bin/cmake.exe;-P;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/verify-thirdparty-glfw-populate.cmake;COMMAND;D:/Programming/openGL/cmake/dir/bin/cmake.exe;-P;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/extract-thirdparty-glfw-populate.cmake
+source_dir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src
+work_dir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps
+url(s)=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/thirdparty/glfw-3.3.2.zip
+hash=
+no_extract=
+

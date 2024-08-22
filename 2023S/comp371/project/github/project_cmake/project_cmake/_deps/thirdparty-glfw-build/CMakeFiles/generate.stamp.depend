@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMakeLists.txt
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/src/glfw3.pc.in
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/src/glfw3Config.cmake.in
+D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/src/glfw_config.h.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDependentOption.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindDoxygen.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindPackageMessage.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/GNUInstallDirs.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake

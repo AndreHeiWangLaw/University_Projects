@@ -1,0 +1,7 @@
+        // add a square
+        // Top left square - translate by (-0.5, 0.5, 0.5)
+        translationMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(-0.5f, 0.5f, 0.0f));
+        worldMatrix = translationMatrix * scalingMatrix;
+        
+        glUniformMatrix4fv(worldMatrixLocation, 1, GL_FALSE, &worldMatrix[0][0]);
+        glDrawArrays(GL_TRIANGLES, 0, 6);

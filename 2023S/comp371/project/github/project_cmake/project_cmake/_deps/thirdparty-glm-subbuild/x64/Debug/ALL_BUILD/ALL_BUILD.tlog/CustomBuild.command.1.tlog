@@ -1,0 +1,10 @@
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

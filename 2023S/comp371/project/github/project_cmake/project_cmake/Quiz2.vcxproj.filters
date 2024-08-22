@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\code\src\Quiz2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E0676080-F18E-3651-8E72-255BCB3E20AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

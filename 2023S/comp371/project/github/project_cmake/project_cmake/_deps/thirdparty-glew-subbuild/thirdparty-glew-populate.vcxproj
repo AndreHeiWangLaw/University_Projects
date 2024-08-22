@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C799C162-94D3-3450-939D-08F3EFEBB3E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>thirdparty-glew-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -Dcfgdir=/Debug -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/tmp/thirdparty-glew-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (verify and extract) for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/verify-thirdparty-glew-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/extract-thirdparty-glew-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\thirdparty-glew-populate-urlinfo.txt;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-update_disconnected.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update_disconnected step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-update_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\thirdparty-glew-populate-update-info.txt;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-update_disconnected</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-patch_disconnected.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch_disconnected step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-patch_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\thirdparty-glew-populate-patch-info.txt;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-update_disconnected;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-patch_disconnected</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\tmp\thirdparty-glew-populate-cfgcmd.txt;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-patch_disconnected;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\a1b32a7bac5b208543d26a7941680447\thirdparty-glew-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\98c0a0ded708d99761d4d01260bf962c\thirdparty-glew-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'thirdparty-glew-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E make_directory "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/Debug/thirdparty-glew-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-install;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-mkdir;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-download;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-update_disconnected;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-patch_disconnected;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-configure;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-build;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\src\thirdparty-glew-populate-stamp\Debug\thirdparty-glew-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\Debug\thirdparty-glew-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\c915176adddedd2987ef3821c795ab80\thirdparty-glew-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\Debug\thirdparty-glew-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\thirdparty-glew-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\3.27.0-rc5\CMakeSystem.cmake;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\tmp\thirdparty-glew-populate-mkdirs.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\PatchInfo.txt.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\RepositoryInfo.txt.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\UpdateInfo.txt.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\cfgcmd.txt.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\extractfile.cmake.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\mkdirs.cmake.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\ExternalProject\verify.cmake.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\thirdparty-glew-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{6879C87B-0D9C-3DA8-B17F-98E36F23F318}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

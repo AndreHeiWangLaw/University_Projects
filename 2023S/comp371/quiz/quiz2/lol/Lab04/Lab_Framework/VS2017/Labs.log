@@ -1,0 +1,15 @@
+﻿  lab04.cpp
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(205): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(224): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(619): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(628): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(832): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(837): warning C4305: 'return': truncation from 'int' to 'bool'
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(851): warning C4305: 'return': truncation from 'int' to 'bool'
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(1239): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+d:\concordia\2023 summer\comp371\quiz\quiz2\lab04\lab_framework\source\lab04.cpp(1240): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Labs.vcxproj -> D:\Concordia\2023 Summer\comp371\quiz\quiz2\Lab04\Lab_Framework\VS2017\/../Bin/Labs-Debug.exe

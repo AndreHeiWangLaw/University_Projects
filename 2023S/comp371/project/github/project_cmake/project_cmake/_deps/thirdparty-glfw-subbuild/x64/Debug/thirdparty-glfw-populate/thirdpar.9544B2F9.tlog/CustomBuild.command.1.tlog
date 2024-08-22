@@ -1,0 +1,150 @@
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-MKDIR.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -Dcfgdir=/Debug -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/tmp/thirdparty-glfw-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/verify-thirdparty-glfw-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/extract-thirdparty-glfw-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-UPDATE_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-update_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-PATCH_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-patch_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\9AAEA590278BAF2EFC34485318472D9C\THIRDPARTY-GLFW-POPULATE-TEST.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\D9EAE65A1CF7EBA5A9FAE80DC196F428\THIRDPARTY-GLFW-POPULATE-COMPLETE.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E make_directory "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug/thirdparty-glfw-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\21AA722EE301AF809CCEE389A4ADB2AC\THIRDPARTY-GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

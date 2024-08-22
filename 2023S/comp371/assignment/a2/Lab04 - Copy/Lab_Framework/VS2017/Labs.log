@@ -1,0 +1,20 @@
+﻿  lab04.cpp
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(203): warning C4018: '<': signed/unsigned mismatch
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(212): warning C4018: '<': signed/unsigned mismatch
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(255): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(256): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(324): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(362): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(717): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(726): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(958): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(963): warning C4305: 'return': truncation from 'int' to 'bool'
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(980): warning C4305: 'return': truncation from 'int' to 'bool'
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(1206): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(1207): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\concordia\2023 summer\comp371\assignment\a2\lab04 - copy\lab_framework\source\lab04.cpp(1351): warning C4018: '<': signed/unsigned mismatch
+  Labs.vcxproj -> D:\Concordia\2023 Summer\comp371\assignment\a2\Lab04 - Copy\Lab_Framework\VS2017\/../Bin/Labs-Debug.exe

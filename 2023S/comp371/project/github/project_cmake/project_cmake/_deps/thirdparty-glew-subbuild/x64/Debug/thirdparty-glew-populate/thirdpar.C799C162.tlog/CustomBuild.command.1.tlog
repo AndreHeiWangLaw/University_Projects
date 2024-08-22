@@ -1,0 +1,150 @@
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-MKDIR.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -Dcfgdir=/Debug -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/tmp/thirdparty-glew-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/verify-thirdparty-glew-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/extract-thirdparty-glew-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-UPDATE_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-update_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-PATCH_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-patch_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\A1B32A7BAC5B208543D26A7941680447\THIRDPARTY-GLEW-POPULATE-TEST.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\98C0A0DED708D99761D4D01260BF962C\THIRDPARTY-GLEW-POPULATE-COMPLETE.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E make_directory "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/Debug/thirdparty-glew-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/Debug/thirdparty-glew-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKEFILES\C915176ADDDEDD2987EF3821C795AB80\THIRDPARTY-GLEW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLEW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

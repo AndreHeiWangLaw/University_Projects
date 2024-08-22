@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\CMakeFiles\c915176adddedd2987ef3821c795ab80\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-subbuild\thirdparty-glew-populate-prefix\tmp\thirdparty-glew-populate-mkdirs.cmake">
+      <Filter>Buildsystem Input Files\thirdparty-glew-populate-prefix\tmp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F47A7C2-C465-30B3-ADC1-A940A68F8A8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\thirdparty-glew-populate-prefix\tmp">
+      <UniqueIdentifier>{DEA427FE-998F-317B-8D88-E31B6AFA354A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

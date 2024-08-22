@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\CMakeFiles\2046f762ead302516b15fbcd6562b5cb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-src\build\cmake\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-src\build\cmake\cmake_uninstall.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glew-src\glew.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\examples\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw3.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw3Config.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw_config.h.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\tests\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-src\glm\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\code\cmake\BuildGLEW.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\code\cmake\BuildGLFW.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\code\cmake\BuildGLM.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0453809-DAF4-357E-991E-028AF148F8F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C49A47C9-6A59-3E29-A936-93538BC5C298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{252662E8-407D-31B0-9724-597B9796F0E5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

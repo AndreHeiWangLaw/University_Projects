@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=D:/Programming/openGL/cmake/dir/bin/cmake.exe;-P;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/verify-thirdparty-glew-populate.cmake;COMMAND;D:/Programming/openGL/cmake/dir/bin/cmake.exe;-P;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/extract-thirdparty-glew-populate.cmake
+source_dir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glew-src
+work_dir=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps
+url(s)=D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/thirdparty/glew-2.1.0.zip
+hash=
+no_extract=
+

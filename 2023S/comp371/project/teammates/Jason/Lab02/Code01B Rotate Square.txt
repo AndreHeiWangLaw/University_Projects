@@ -1,0 +1,3 @@
+        angle = (angle + rotationSpeed * dt); // angles in degrees, but glm expects radians (conversion below)
+        rotationMatrix = glm::rotate(glm::mat4(1.0f), glm::radians(angle), glm::vec3(0.0f, 0.0f, 1.0f));
+        glUniformMatrix4fv(worldMatrixLocation, 1, GL_FALSE, &rotationMatrix[0][0]);

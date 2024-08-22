@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE475409-9ECF-3B19-AF9C-26F3229329DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw3.pc.in;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw3Config.cmake.in;D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-src\src\glfw_config.h.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakeDependentOption.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CheckIncludeFile.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\CheckLibraryExists.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\FindDoxygen.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\FindPackageMessage.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\FindThreads.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\GNUInstallDirs.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\Programming\openGL\cmake\dir\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\ZERO_CHECK.vcxproj">
+      <Project>{A42973B2-5E9D-3122-8C11-83BD6D4647CA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\boing.vcxproj">
+      <Project>{E8C9CCF5-B640-3468-87D5-5BD9AF32D0A9}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\clipboard.vcxproj">
+      <Project>{0531DA43-384B-368B-BA2A-D5E781A88832}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\cursor.vcxproj">
+      <Project>{A57A9891-A7E3-3A08-8608-1EF08BC218FB}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\empty.vcxproj">
+      <Project>{5698E673-08D6-3FB0-88D6-6142A535FA97}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\events.vcxproj">
+      <Project>{8B9DDED2-3B74-3A43-A580-E3A895E7BD65}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\gamma.vcxproj">
+      <Project>{26F62897-0A69-3CCB-9390-854C6D8BF721}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\gears.vcxproj">
+      <Project>{2B309DCF-FDDA-33BF-BED3-B589BF93C52E}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\src\glfw.vcxproj">
+      <Project>{81CBE047-6737-33AB-85CA-ABE79F6B37F9}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\glfwinfo.vcxproj">
+      <Project>{BB645511-356B-3595-B137-6C3B21C732A3}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\heightmap.vcxproj">
+      <Project>{5447566F-48AD-3F09-BCC1-CB91D6AE3F4D}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\icon.vcxproj">
+      <Project>{227D0D20-415F-371F-9EB8-520593CE3F25}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\iconify.vcxproj">
+      <Project>{015E6CDE-8D93-33E7-A8C6-FC4E46E09769}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\inputlag.vcxproj">
+      <Project>{1EB7E605-CFB8-34A4-A7EB-83AAED6C4A20}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\joysticks.vcxproj">
+      <Project>{671166DF-04CA-3BB7-A131-DA07C3141771}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\monitors.vcxproj">
+      <Project>{97FB8915-E984-3788-8631-883D8314C059}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\msaa.vcxproj">
+      <Project>{F77EED5F-D965-335D-AFC2-0B7D90CB0D3F}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\offscreen.vcxproj">
+      <Project>{E8F93852-0F52-3C58-BA63-FE8F6C63BBDB}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\opacity.vcxproj">
+      <Project>{384CA427-4FA9-3F81-8914-83F0A0E6D623}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\particles.vcxproj">
+      <Project>{7ABA164E-06E8-3DC1-926E-C92E780D67C9}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\reopen.vcxproj">
+      <Project>{5FCDE8AC-160F-3734-BE20-981F8DEDABFA}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\sharing.vcxproj">
+      <Project>{4568AACD-F01E-3610-8EE9-E0C131BBD33A}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\simple.vcxproj">
+      <Project>{38788998-3D12-339F-883D-CEF676FC4ED6}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\splitview.vcxproj">
+      <Project>{D3B334BD-B467-31CC-8860-34640A98FDEA}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\tearing.vcxproj">
+      <Project>{7B4403BA-DC73-343B-B6E5-82B9F7DCACC7}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\threads.vcxproj">
+      <Project>{A68EAF06-C85A-30E5-B3FD-E253CBDB0331}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\timeout.vcxproj">
+      <Project>{8265A067-7045-3F3A-9924-190FEE4925DA}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\title.vcxproj">
+      <Project>{0366FE12-D8CD-3D1D-8D95-297718A47D5B}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\triangle-vulkan.vcxproj">
+      <Project>{3C2ED2DA-8523-3D2E-A6BA-B13386A7B083}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\examples\wave.vcxproj">
+      <Project>{0F7B9CB0-DD68-373F-BE56-F4C33110A893}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glfw-build\tests\windows.vcxproj">
+      <Project>{47420D0A-C3C4-3144-9439-F24F52BAE585}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

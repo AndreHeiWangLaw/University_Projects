@@ -1,0 +1,150 @@
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-MKDIR.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -Dcfgdir=/Debug -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/tmp/thirdparty-glm-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/verify-thirdparty-glm-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -P "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/extract-thirdparty-glm-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-UPDATE_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-update_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-PATCH_DISCONNECTED.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-patch_disconnected"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\D84320A87E70BFA36673983437B0AFCA\THIRDPARTY-GLM-POPULATE-TEST.RULE
+setlocal
+cd "D:\Concordia\2023 Summer\comp371\project\github\project_cmake\project_cmake\_deps\thirdparty-glm-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\2D91441CFD4B90CBD852B16BBDC9B966\THIRDPARTY-GLM-POPULATE-COMPLETE.RULE
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E make_directory "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/Debug/thirdparty-glm-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programming\openGL\cmake\dir\bin\cmake.exe -E touch "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\50CF6D389B5CEED8919B1528DF89F9B5\THIRDPARTY-GLM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CONCORDIA\2023 SUMMER\COMP371\PROJECT\GITHUB\PROJECT_CMAKE\PROJECT_CMAKE\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\Programming\openGL\cmake\dir\bin\cmake.exe "-SD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild" "-BD:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild" --check-stamp-file "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glm-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

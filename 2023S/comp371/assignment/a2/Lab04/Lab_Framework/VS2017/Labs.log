@@ -1,0 +1,2 @@
+﻿  lab04.cpp
+d:\concordia\2023 summer\comp371\assignment\a2\lab04\lab_framework\thirdparty\glad\glad.h(645): fatal error C1189: #error:  OpenGL header already included, remove this include, glad already provides it

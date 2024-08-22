@@ -1,0 +1,387 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 8/9/2023 4:46:10 PM.
+      
+      Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.70
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/3.27.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 8/9/2023 4:46:11 PM.
+      
+      Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\3.27.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.56
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/3.27.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-gbfyei"
+      binary: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-gbfyei"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-gbfyei'
+        
+        Run Build Command(s): "D:/Programming/Vs Code/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_097c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 8/9/2023 4:46:12 PM.
+        
+        Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-gbfyei\\cmTC_097c4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_097c4.dir\\Debug\\".
+          Creating directory "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-gbfyei\\Debug\\".
+          Creating directory "cmTC_097c4.dir\\Debug\\cmTC_097c4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_097c4.dir\\Debug\\cmTC_097c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_097c4.dir\\Debug\\\\" /Fd"cmTC_097c4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Programming\\openGL\\cmake\\dir\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_097c4.dir\\Debug\\\\" /Fd"cmTC_097c4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Programming\\openGL\\cmake\\dir\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-gbfyei\\Debug\\cmTC_097c4.exe" /INCREMENTAL /ILK:"cmTC_097c4.dir\\Debug\\cmTC_097c4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-gbfyei/Debug/cmTC_097c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-gbfyei/Debug/cmTC_097c4.lib" /MACHINE:X64  /machine:x64 cmTC_097c4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_097c4.vcxproj -> D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-gbfyei\\Debug\\cmTC_097c4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_097c4.dir\\Debug\\cmTC_097c4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_097c4.dir\\Debug\\cmTC_097c4.tlog\\cmTC_097c4.lastbuildstate".
+        Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-gbfyei\\cmTC_097c4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-z9euxx"
+      binary: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-z9euxx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-z9euxx'
+        
+        Run Build Command(s): "D:/Programming/Vs Code/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94b4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 8/9/2023 4:46:13 PM.
+        
+        Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-z9euxx\\cmTC_94b4f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_94b4f.dir\\Debug\\".
+          Creating directory "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-z9euxx\\Debug\\".
+          Creating directory "cmTC_94b4f.dir\\Debug\\cmTC_94b4f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_94b4f.dir\\Debug\\cmTC_94b4f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94b4f.dir\\Debug\\\\" /Fd"cmTC_94b4f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Programming\\openGL\\cmake\\dir\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94b4f.dir\\Debug\\\\" /Fd"cmTC_94b4f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Programming\\openGL\\cmake\\dir\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-z9euxx\\Debug\\cmTC_94b4f.exe" /INCREMENTAL /ILK:"cmTC_94b4f.dir\\Debug\\cmTC_94b4f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-z9euxx/Debug/cmTC_94b4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-z9euxx/Debug/cmTC_94b4f.lib" /MACHINE:X64  /machine:x64 cmTC_94b4f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_94b4f.vcxproj -> D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-z9euxx\\Debug\\cmTC_94b4f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_94b4f.dir\\Debug\\cmTC_94b4f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_94b4f.dir\\Debug\\cmTC_94b4f.tlog\\cmTC_94b4f.lastbuildstate".
+        Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-z9euxx\\cmTC_94b4f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-cj3x4a"
+      binary: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-cj3x4a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/cmake;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-cj3x4a'
+        
+        Run Build Command(s): "D:/Programming/Vs Code/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1a7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 8/9/2023 4:46:17 PM.
+        
+        Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\cmTC_c1a7a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c1a7a.dir\\Debug\\".
+          Creating directory "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\Debug\\".
+          Creating directory "cmTC_c1a7a.dir\\Debug\\cmTC_c1a7a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c1a7a.dir\\Debug\\cmTC_c1a7a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1a7a.dir\\Debug\\\\" /Fd"cmTC_c1a7a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1a7a.dir\\Debug\\\\" /Fd"cmTC_c1a7a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\src.c"
+        D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\cmTC_c1a7a.vcxproj]
+        Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\cmTC_c1a7a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\cmTC_c1a7a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-cj3x4a\\cmTC_c1a7a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-o7kcoq"
+      binary: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-o7kcoq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/cmake;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-o7kcoq'
+        
+        Run Build Command(s): "D:/Programming/Vs Code/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96515.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 8/9/2023 4:46:17 PM.
+        
+        Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\cmTC_96515.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_96515.dir\\Debug\\".
+          Creating directory "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\Debug\\".
+          Creating directory "cmTC_96515.dir\\Debug\\cmTC_96515.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_96515.dir\\Debug\\cmTC_96515.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96515.dir\\Debug\\\\" /Fd"cmTC_96515.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96515.dir\\Debug\\\\" /Fd"cmTC_96515.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\CheckFunctionExists.c"
+        Link:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\Debug\\cmTC_96515.exe" /INCREMENTAL /ILK:"cmTC_96515.dir\\Debug\\cmTC_96515.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-o7kcoq/Debug/cmTC_96515.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-o7kcoq/Debug/cmTC_96515.lib" /MACHINE:X64  /machine:x64 cmTC_96515.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\cmTC_96515.vcxproj]
+        Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\cmTC_96515.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\cmTC_96515.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-o7kcoq\\cmTC_96515.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Programming/openGL/cmake/dir/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-9rd495"
+      binary: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-9rd495"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/code/cmake;D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/_deps/thirdparty-glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-9rd495'
+        
+        Run Build Command(s): "D:/Programming/Vs Code/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3bde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 8/9/2023 4:46:18 PM.
+        
+        Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\cmTC_f3bde.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f3bde.dir\\Debug\\".
+          Creating directory "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\Debug\\".
+          Creating directory "cmTC_f3bde.dir\\Debug\\cmTC_f3bde.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f3bde.dir\\Debug\\cmTC_f3bde.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3bde.dir\\Debug\\\\" /Fd"cmTC_f3bde.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3bde.dir\\Debug\\\\" /Fd"cmTC_f3bde.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\CheckFunctionExists.c"
+        Link:
+          D:\\Programming\\Vs Code\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\Debug\\cmTC_f3bde.exe" /INCREMENTAL /ILK:"cmTC_f3bde.dir\\Debug\\cmTC_f3bde.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-9rd495/Debug/cmTC_f3bde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia/2023 Summer/comp371/project/github/project_cmake/project_cmake/CMakeFiles/CMakeScratch/TryCompile-9rd495/Debug/cmTC_f3bde.lib" /MACHINE:X64  /machine:x64 cmTC_f3bde.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\cmTC_f3bde.vcxproj]
+        Done Building Project "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\cmTC_f3bde.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\cmTC_f3bde.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Concordia\\2023 Summer\\comp371\\project\\github\\project_cmake\\project_cmake\\CMakeFiles\\CMakeScratch\\TryCompile-9rd495\\cmTC_f3bde.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 1
+...
