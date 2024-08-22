@@ -1,0 +1,126 @@
+.spacer-wrapper-not-animated {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../../assets/fruit-aisle.jpg");
+    background-size: 2000px 2300px;
+    background-position: center;
+}
+
+.spacer-wrapper-not-animated-veggies {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../../assets/aisles/vegetables/banner.jpeg");
+    background-size: 2000px 2300px;
+    background-position: center;
+}
+
+.spacer-wrapper-not-animated-pantry {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../../assets/aisles/pantry/Banner.jpg");
+    background-size: 1600px 1050px;
+    background-position: center;
+}
+
+.empty-spacer {
+    height: 5vh;
+    width: 100%;
+    content: '';
+}
+
+h1.title {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50px;
+    color: var(--gray);
+    margin-top: 5%;
+    margin-bottom: 5% !important;
+    margin-left: 5%;
+    line-height: 1 !important;
+    color: rgb(100, 100, 100);
+}
+
+h1.name {
+    margin-top: 5%;
+    font-size: 25px;
+    color: rgb(100, 100, 100);;
+    text-align: left;
+}
+
+h1.price {
+    margin-top: 2%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);;
+    text-align: left;
+}
+
+.categories-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-around;
+    padding: 5vh 0;
+}
+
+.cat-img-wrapper {
+    border-radius: 15px;
+    width: 14vw;
+    height: 15vh;
+    max-width: 14vw;
+    max-height: 15vh;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 10px -5px #595959;
+    box-shadow: 5px 5px 10px -5px #595959;
+    transition: all .2s ease-in-out;
+}
+
+
+@media screen and (max-width: 992px) {
+    /* resize for phone */
+    .categories-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: space-around;
+        padding: 5vh 0;
+    }
+
+    .cat-img-wrapper {
+        border-radius: 15px;
+        width: 85vw;
+        height: 30vh;
+        max-width: 85vw;
+        max-height: 30vh;
+        overflow: hidden;
+        -webkit-box-shadow: 5px 5px 10px -5px #595959;
+        box-shadow: 5px 5px 10px -5px #595959;
+        transition: all .2s ease-in-out;
+    }
+
+    h1.title {
+        font-family: 'Urbanist', sans-serif;
+        font-size: 100px;
+        color: var(--gray);
+        margin-top: 5%;
+        margin-bottom: 5% !important;
+        margin-left: 5%;
+        line-height: 1 !important;
+        color: rgb(100, 100, 100);
+    }
+
+    h1.name {
+        margin-top: 5%;
+        font-size: 50px;
+        color: rgb(100, 100, 100);;
+        text-align: left;
+    }
+
+    h1.price {
+        margin-top: 2%;
+        font-size: 80px;
+        color: rgb(0, 0, 0);;
+        text-align: left;
+    }
+
+}

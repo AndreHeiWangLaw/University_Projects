@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Edit properties</title>
+    <link rel="stylesheet" href="Add_Product.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<div id="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card" style="background-color: lightpink; color: #fff; text-align: center; font-size: 30px;">
+                    <div class="card-header" >
+                        Add a New Product
+                    </div>
+                </div>
+
+                <div class="product-Details">
+
+                    <div class="col-lg-8">
+
+                        <div class="card2">
+                            <div class="card-body">
+
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Product ID</h6>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input id="product_id" name="product_id" type="text">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Product Name</h6>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input id="product_name" name="product_name" type="text">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Description</h6>
+                                    </div>
+                                    <div class="col-sm-9">
+
+                                        <input id="author" name="author" type="text" placeholder="Author Name">
+                                        <input id="country" name="country" type="text" placeholder="Country">
+                                        <input id="language" name="language" type="text" placeholder="Language">
+                                        <input id="pages" name="pages" type="text" placeholder="Pages Number">
+                                        <input id="year" name="year" type="text" placeholder="Year of Publishing">
+
+
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Copies</h6>
+                                    </div>
+                                    <div class="col-sm-9">
+
+                                        <input id="supplier" name="supplier" type="text" placeholder="Supplier">
+                                        <input id="price" name="price" type="text" placeholder="Price">
+                                        <input id="quantity" name="quantity" type="number" placeholder="Count">
+                                    </div>
+                                    <div class="row mb-9">
+                                        <div class="col-sm-3"></div>
+                                        <div class="col-sm-9">
+                                            <a href="inventory.php"> <input type="submit" value="Submit" name="savebutton"> </a>
+                                        </div>
+                                    </div>
+                                </div>
+</html>

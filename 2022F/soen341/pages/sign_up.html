@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Urbanist" rel="stylesheet"/>
+
+<style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        color: #157347;
+        font-family: "Urbanist";
+    }
+
+    h6{
+        text-align: center;
+        font-size: 15px;
+        color: red;
+        font-family: "Urbanist";
+    }
+    form{
+        margin: 20px auto;
+        width: 320px;
+        color: black;
+    }
+
+    input {
+        padding: 10px;
+        font-size: inherit;
+    }
+
+    input[type="text"] {
+        display: block;
+        margin-bottom: 25px;
+        width: 95%;
+        border: 2px solid #ebebeb !important;
+        background: #fbfbfb !important;
+        border-radius: 12px !important;
+    }
+
+    input[type="email"] {
+        display: block;
+        margin-bottom: 25px;
+        width: 95%;
+        border: 2px solid #ebebeb !important;
+        background: #fbfbfb !important;
+        border-radius: 12px !important;
+    }
+
+    input[type="password"] {
+        display: block;
+        margin-bottom: 25px;
+        width: 95%;
+        border: 2px solid #ebebeb !important;
+        background: #fbfbfb !important;
+        border-radius: 12px !important;
+    }
+
+    input[type="button"] {
+        width: 330px;
+        height: 45px;
+        border: black;
+        background: rgb(221, 221, 221);
+        -webkit-box-shadow: 5px 5px 10px -5px #595959;
+        box-shadow: 5px 5px 10px -5px #595959;
+        color: black;
+        border-radius: 20px;
+    }
+
+    input[type="reset"] {
+        width: 330px;
+        height: 45px;
+        border: black;
+        background: rgb(221, 221, 221);
+        -webkit-box-shadow: 5px 5px 10px -5px #595959;
+        box-shadow: 5px 5px 10px -5px #595959;
+        color: black;
+        margin: 10px 0 0 0;
+        border-radius: 20px;
+    }
+
+    input:focus {
+        background: white;
+    }
+
+    .submissionform {
+        max-width: 728px;
+        margin: 2rem auto;
+        border: 3px solid;
+        border-radius: 20px;
+        padding: 3rem;
+        display: block;
+        -webkit-box-shadow: 5px 5px 10px -5px #595959;
+        box-shadow: 5px 5px 10px -5px #595959;
+        background-color: rgb(240, 240, 240);
+        border-color: rgb(240, 240, 240);
+    }
+</style>
+
+
+<body>
+<h1>Register an account</h1>
+<form class="submissionform" action="sign_up.php" method="post" id="form">
+    <input name="firstName" style="font-family: Urbanist" type="text" placeholder="*First name" id="firstName">
+    <input name="lastName" style="font-family: Urbanist" type="text" placeholder="*Last name" id="lastName">
+    <input name="email" style="font-family: Urbanist" type="email" placeholder="*Email" id="email">
+    <input name="address" style="font-family: Urbanist" type="text" placeholder="*Address" id="address">
+    <input name="postalCode" style="font-family: Urbanist" type="text" placeholder="*Postal Code" id="postalCode">
+    <input name="password" style="font-family: Urbanist" type="password" placeholder="*Password" id="password">
+    <input name="confirm_password" style="font-family: Urbanist" type="password" placeholder="*Confirm Password"
+           id="confirm_password">
+    <input type="radio" name="role" id="role_supplier" value="supplier" />
+    <label style="font-family: Urbanist" for="role_supplier">Supplier</label>
+    <input type="radio" name="role" id="role_supervisor" value="supervisor" />
+    <label style="font-family: Urbanist" for="role_supervisor">Supervisor</label>
+    <input type="radio" name="role" id="role_customer" value="customer" />
+    <label style="font-family: Urbanist" for="role_customer">Customer</label>
+
+    <input style="font-family: Urbanist" type="button" name="Sign Up" id="submitButton" value="Sign Up">
+    <input style="font-family: Urbanist" type="Reset" name="Reset" id="reset">
+</form>
+
+<script src="sign_up.js" rel="script"></script>
+</body>
+</html>
