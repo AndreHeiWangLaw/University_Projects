@@ -1,0 +1,32 @@
+--comp 353 a2
+
+-- a)
+SELECT m.MemberID, m.FirstName, m.LastName, m.MiddleInitial, m.DateOfBirth, m.Address, m.Gender, m.PhoneNumber, m.EmailAddress, m.SocialSecurityNumber, e.JobTitle, m.StartDate
+FROM Members m
+INNER JOIN Employees e ON m.MemberID = e.MemberID
+WHERE m.MemberID IN (
+    SELECT DISTINCT MemberID
+    FROM Donations
+)
+
+
+
+
+
+
+
+
+
+
+-- b)
+
+
+-- c)
+
+
+
+
+-- d)
+
+
+
