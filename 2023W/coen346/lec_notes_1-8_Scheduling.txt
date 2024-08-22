@@ -1,0 +1,206 @@
+lec 1 - 2
+
+What is an operating system?
+27
+37
+123
+
+Operating system goals
+34
+
+An operating system manages the computer system
+36
+57
+
+Resource management - process
+38
+
+-----Interacting with I/O devices: the old way
+39
+
+Interacting with I/O devices using INTERRUPTS
+43
+
+Not all interrupts are the same!
+48
+79
+
+Multimode - user vs kernal
+56
+91
+
+Architectures
+65
+
+difference between multiprocessor and multicore?
+67
+
+Multiprogramming and Multitasking
+69
+
+Operating system components
+76
+
+------------------------------------------------------
+
+lec 3
+
+How are interrupts handled?
+79-84
+
+System calls are traps (i.e. interrupts)
+92
+
+Example system calls for copying a file
+94-99
+
+Examples of Windows and Unix System Calls
+100
+
+Types of System Calls
+102
+
+Hardware Requirements
+104
+
+------------------------------------------------------
+
+Operating system structures
+105
+
+separation of policy and mechanism 
+106
+
+Monolithic structure 
+108
+
+Linux structure
+109
+
+Layered Structure 
+110
+
+Microkernels
+111
+
+Modules
+112
+
+Hybrid systems
+113
+
+Darwin Kernel
+114
+
+Quiz
+120
+
+Definitions of computer system components
+121
+
+------------------------------------------------------
+
+lec 4 Process Management
+
+Processes definition
+127
+
+When the program is called, 
+130
+
+Process scheduling
+134-138
+
+CPU Scheduler
+139
+
+Context switch
+140-145
+
+----Operations on Processes (fork, parent child)
+147-155
+
+---Process Termination
+158
+
+Cooperating processes
+160
+
+Inter process communication mechanisms (shared mem, message passing)
+163
+
+Signals (3rd inter process communication)
+164-166
+
+Shared memory
+169
+
+Message passing
+171
+
+Quiz
+175-183
+
+------------------------------------------------------
+
+Threads
+
+A thread is 
+188
+
+User process may have user threads,
+managed by the process (i.e. the JVM)
+189
+-Java vs C, JVM = java virtual machine
+
+Many-to-One
+190
+
+One-to-One
+191
+
+Many-to-Many
+191
+
+Two-level
+193
+
+------------------------------------------------------
+
+Scheduling
+196
+
+Which process gets to run next
+is a decision of the scheduler,
+following a policy
+198
+
+How to select the next process to run? 
+200
+
+CPU utilization
+202
+
+Scheduling algorithms
+203
+
+scheduling is preemptive or non-preemptive
+205
+209
+218
+
+First-in First out
+206
+
+Avg Waiting time? Avg Turn around time?
+207
+
+How to know the burst time of the process?
+211
+
+Shortest-remaining-time-first
+213
+
+Round Robin
+214
+220
