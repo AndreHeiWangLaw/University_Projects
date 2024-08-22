@@ -1,0 +1,442 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Things Fall Apart",
+    "imageLink": "images/things-fall-apart.jpg",
+    "description": {
+      "author": "Chinua Achebe",
+      "country": "Nigeria",
+      "language": "English",
+      "pages": 209,
+      "year": 1958
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 120.99,
+        "quantity": 2
+      },
+      {
+        "supplier": "Archambault",
+        "price": 190.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 2,
+    "product_name": "Fairy tales",
+    "imageLink": "images/fairy-tales.jpg",
+    "description": {
+      "author": "Hans Christian Andersen",
+      "country": "Denmark",
+      "language": "Danish",
+      "pages": 784,
+      "year": 1836
+    },
+    "copies": [
+      {
+        "supplier": "Amazon",
+        "price": 150.99,
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "product_id": 3,
+    "product_name": "The Divine Comedy",
+    "imageLink": "images/the-divine-comedy.jpg",
+    "description": {
+      "author": "Dante Alighieri",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 928,
+      "year": 1315
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 60.99,
+        "quantity": 2
+      },
+      {
+        "supplier": "Archambault",
+        "price": 44.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 4,
+    "product_name": "The Epic Of Gilgamesh",
+    "imageLink": "images/the-epic-of-gilgamesh.jpg",
+    "description": {
+      "author": "Unknown",
+      "country": "Sumer and Akkadian Empire",
+      "language": "Akkadian",
+      "pages": 160,
+      "year": -1700
+    },
+    "copies": [
+      {
+        "supplier": "Archambault",
+        "price": 160.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 5,
+    "product_name": "The Book Of Job",
+    "imageLink": "images/the-book-of-job.jpg",
+    "description": {
+      "author": "Unknown",
+      "country": "Achaemenid Empire",
+      "language": "Hebrew",
+      "pages": 176,
+      "year": -600
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 160.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 6,
+    "product_name": "One Thousand and One Nights",
+    "imageLink": "images/one-thousand-and-one-nights.jpg",
+    "description": {
+      "author": "Unknown",
+      "country": "India/Iran/Iraq/Egypt/Tajikistan",
+      "language": "Arabic",
+      "pages": 288,
+      "year": 1200
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 150.99,
+        "quantity": 2
+      },
+      {
+        "supplier": "Amazon",
+        "price": 110.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 7,
+    "product_name": "Nj\u00e1ls Saga",
+    "imageLink": "images/njals-saga.jpg",
+    "description": {
+      "author": "Unknown",
+      "country": "Iceland",
+      "language": "Old Norse",
+      "pages": 384,
+      "year": 1350
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 159.99,
+        "quantity": 2
+      },
+      {
+        "supplier": "Amazon",
+        "price": 129.99,
+        "quantity": 3
+      },
+      {
+        "supplier": "Archambault",
+        "price": 130.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 8,
+    "product_name": "Pride and Prejudice",
+    "imageLink": "images/pride-and-prejudice.jpg",
+    "description": {
+      "author": "Jane Austen",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 226,
+      "year": 1813
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 160.99,
+        "quantity": 6
+      },
+      {
+        "supplier": "Amazon",
+        "price": 130.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "product_id": 9,
+    "product_name": "Le Pere Goriot",
+    "imageLink": "images/le-pere-goriot.jpg",
+    "description": {
+      "author": "Honor",
+      "country": "France",
+      "language": "French",
+      "pages": 443,
+      "year": 1835
+    },
+    "copies": [
+      {
+        "supplier": "Archambault",
+        "price": 160.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 10,
+    "product_name": "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
+    "description": {
+      "author": "Samuel Beckett",
+      "country": "Republic of Ireland",
+      "language": "French",
+      "pages": 256,
+      "year": 1952
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 160.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 11,
+    "product_name": "The Decameron",
+    "imageLink": "images/the-decameron.jpg",
+    "description": {
+      "author": "Giovanni Boccaccio",
+      "country": "Italy",
+      "language": "Italian",
+      "pages": 1024,
+      "year": 1351
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 160.99,
+        "quantity": 3
+      },
+      {
+        "supplier": "Amazon",
+        "price": 132.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 12,
+    "product_name": "Ficciones",
+    "imageLink": "images/ficciones.jpg",
+    "description": {
+      "author": "Jorge Luis Borges",
+      "country": "Argentina",
+      "language": "Spanish",
+      "pages": 224,
+      "year": 1965
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 160.99,
+        "quantity": 7
+      },
+      {
+        "supplier": "Amazon",
+        "price": 114.99,
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "product_id": 13,
+    "product_name": "Wuthering Heights",
+    "imageLink": "images/wuthering-heights.jpg",
+    "description": {
+      "author": "Emily Bront",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 342,
+      "year": 1847
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 140.99,
+        "quantity": 5
+      },
+      {
+        "supplier": "Amazon",
+        "price": 120.99,
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "product_id": 14,
+    "product_name": "The Stranger",
+    "imageLink": "images/l-etranger.jpg",
+    "description": {
+      "author": "Albert Camus",
+      "country": "Algeria",
+      "language": "French",
+      "pages": 185,
+      "year": 1942
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 165.99,
+        "quantity": 3
+      },
+      {
+        "supplier": "Amazon",
+        "price": 139.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "product_id": 15,
+    "product_name": "Poems",
+    "imageLink": "images/poems-paul-celan.jpg",
+    "description": {
+      "author": "Paul Celan",
+      "country": "Romania",
+      "language": "German",
+      "pages": 320,
+      "year": 1952
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 180.99,
+        "quantity": 2
+      },
+      {
+        "supplier": "Amazon",
+        "price": 110.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 16,
+    "product_name": "Journey to the End of the Night",
+    "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
+    "description": {
+      "author": "Louis-Ferdinand",
+      "country": "France",
+      "language": "French",
+      "pages": 505,
+      "year": 1932
+    },
+    "copies": [
+      {
+        "supplier": "Amazon",
+        "price": 30.99,
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "product_id": 17,
+    "product_name": "Don Quijote De La Mancha",
+    "imageLink": "images/don-quijote-de-la-mancha.jpg",
+    "description": {
+      "author": "Miguel de Cervantes",
+      "country": "Spain",
+      "language": "Spanish",
+      "pages": 1056,
+      "year": 1610
+    },
+    "copies": [
+      {
+        "supplier": "RenaudBray",
+        "price": 60.99,
+        "quantity": 1
+      },
+      {
+        "supplier": "Archambault",
+        "price": 70.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 18,
+    "product_name": "The Canterbury Tales",
+    "imageLink": "images/the-canterbury-tales.jpg",
+    "description": {
+      "author": "Geoffrey Chaucer",
+      "country": "England",
+      "language": "English",
+      "pages": 544,
+      "year": 1450
+    },
+    "copies": [
+      {
+        "supplier": "Archambault",
+        "price": 79.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "product_id": 19,
+    "product_name": "Stories",
+    "imageLink": "images/stories-of-anton-chekhov.jpg",
+    "description": {
+      "author": "Anton Chekhov",
+      "country": "Russia",
+      "language": "Russian",
+      "pages": 194,
+      "year": 1886
+    },
+    "copies": [
+      {
+        "supplier": "Archambault",
+        "price": 10.99,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "product_id": 20,
+    "product_name": "Nostromo",
+    "imageLink": "images/nostromo.jpg",
+    "description": {
+      "author": "Joseph Conrad",
+      "country": "United Kingdom",
+      "language": "English",
+      "pages": 320,
+      "year": 1904
+    },
+    "copies": [
+      {
+        "supplier": "Amazon",
+        "price": 133.99,
+        "quantity": 4
+      }
+    ]
+  }
+]
