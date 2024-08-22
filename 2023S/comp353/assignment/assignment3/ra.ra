@@ -1,0 +1,17 @@
+result_a = π type, gender, locName, name (Adoption ⋈ Admission ⋈ Animals ⋈ HSO_Location 
+              (σ adoptDate >= '2021-01-20' and adoptDate <= '2021-02-20' Adoption))
+
+multiple_adoptions = π animalID (Adoption ÷ π animalID (Adoption))
+result_b = π animalID, type, gender, chipNo (Animals ⋈ multiple_adoptions)
+
+adopters_locations = π SIN, locID (Adoption ⋈ Admission)
+adopters_provinces = π SIN, province (Adopter)
+result_c = π name, phone (ρ adopters_prov(SIN, province) (adopters_locations ⋈σ adopters_locations.locID ≠ adopters_prov.locID adopters_prov ⋈ Adopter))
+
+female_adopters = π SIN (σ gender = 'Female' Animals)
+result_d = π name, phone (Adopter - (ρ female_adopters(SIN) Adoption ⋈ Adopter))
+
+all_animal_types = π type (Animals)
+adopters_all_types = π SIN (Adoption ⋈ Admission ⋈σ Admission.animalID = Adoption.animalID Animals) ÷ π SIN (Adopter ⋈σ adopter.animalCount >= (ρ all_animal_types(type) count(ρ all_animal_types(type) Animals)))
+result_e = π name, phone (Adopter ⋈σ Adopter.SIN = adopters_all_types.SIN)
+

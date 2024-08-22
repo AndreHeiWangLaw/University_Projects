@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assign Schedule</title>
+</head>
+<body>
+    <h1>Assign Schedule</h1>
+    <form action="assignSchedule.php" method="post">
+        <label for="facilityID">Facility ID:</label>
+        <input type="number" id="facilityID" name="facilityID" required><br>
+
+        <label for="ministryID">Ministry ID:</label>
+        <input type="number" id="ministryID" name="ministryID" required><br>
+
+        <label for="medicareCardNumber">Medicare Card Number:</label>
+        <input type="text" id="medicareCardNumber" name="medicareCardNumber" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="startTime">Start Time:</label>
+        <input type="time" id="startTime" name="startTime" required><br>
+
+        <label for="endTime">End Time:</label>
+        <input type="time" id="endTime" name="endTime" required><br>
+
+        <input type="submit" value="Assign Schedule">
+    </form>
+
+    <h2>Edit Schedule</h2>
+    <!-- Edit Schedule Form -->
+    <form action="editSchedule.php" method="post">
+        <label for="facilityID">Facility ID:</label>
+        <input type="number" id="facilityID" name="facilityID" required><br>
+
+        <label for="ministryID">Ministry ID:</label>
+        <input type="number" id="ministryID" name="ministryID" required><br>
+
+        <label for="medicareCardNumber">Medicare Card Number:</label>
+        <input type="text" id="medicareCardNumber" name="medicareCardNumber" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="newStartTime">New Start Time:</label>
+        <input type="time" id="newStartTime" name="newStartTime" required><br>
+
+        <label for="newEndTime">New End Time:</label>
+        <input type="time" id="newEndTime" name="newEndTime" required><br>
+
+        <input type="submit" value="Update Schedule">
+    </form>
+
+    <h2>Delete Schedule</h2>
+    <!-- Delete Schedule Form -->
+    <form action="deleteSchedule.php" method="post">
+        <label for="delete_facility_id">Facility ID:</label>
+        <input type="number" id="delete_facility_id" name="delete_facility_id" required><br>
+
+        <label for="delete_ministry_id">Ministry ID:</label>
+        <input type="number" id="delete_ministry_id" name="delete_ministry_id" required><br>
+
+        <label for="delete_medicare_card_number">Medicare Card Number:</label>
+        <input type="text" id="delete_medicare_card_number" name="delete_medicare_card_number" required><br>
+
+        <label for="delete_date">Date:</label>
+        <input type="date" id="delete_date" name="delete_date" required><br>
+
+        <input type="submit" value="Delete Schedule">
+    </form>
+
+    <h2>View All Schedules</h2>
+    <button onclick="fetchAndDisplaySchedules()">View All Schedules</button>
+    
+    <div id="scheduleList"></div>
+    
+    <script>
+        function fetchAndDisplaySchedules() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        document.getElementById("scheduleList").innerHTML = xhr.responseText;
+                    } else {
+                        console.error("Error fetching schedules:", xhr.status, xhr.statusText);
+                    }
+                }
+            };
+            xhr.open("GET", "fetchSchedule.php", true);
+            xhr.send();
+        }
+    </script>
+
+
+</body>
+</html>

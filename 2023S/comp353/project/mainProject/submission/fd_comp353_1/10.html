@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule Search</title>
+</head>
+<body>
+    <h1>Schedule Search</h1>
+    
+    <form action="searchSchedules.php" method="get">
+        <label for="medicareCardNumber">Employee's Medicare Card Number:</label>
+        <input type="number" id="medicareCardNumber" name="medicareCardNumber" required><br>
+        
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required><br>
+        
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required><br>
+        
+        <input type="submit" value="Search Schedules">
+    </form>
+</body>
+</html>
