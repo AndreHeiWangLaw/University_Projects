@@ -1,0 +1,10 @@
+# output LEDS on ZC702 base board - verified
+NET  output<0>     LOC = E15;  # | IOSTANDARD=LVCMOS18; # Bank  13 VCCO - VADJ     - IO_L23P_T3_13
+NET  output<1>     LOC = D15;  # | IOSTANDARD=LVCMOS18; # Bank  13 VCCO - VADJ     - IO_L3N_T0_DQS_13
+NET  output<2>     LOC = W17;  #  | IOSTANDARD=LVCMOS18; # Bank  34 VCCO - VADJ     - IO_L20N_T3_34
+NET  output<3>     LOC = W5;   #  | IOSTANDARD=LVCMOS18; # Bank  34 VCCO - VADJ     - IO_L20P_T3_34
+NET  output<4>     LOC = V7;   #  | IOSTANDARD=LVCMOS18; # Bank  35 VCCO - VADJ     - IO_L3P_T0_DQS_AD1P_35
+NET  output<5>     LOC = W10;  #  | IOSTANDARD=LVCMOS18; # Bank  35 VCCO - VADJ     - IO_L3N_T0_DQS_AD1N_35
+NET  output<6>     LOC = P18;  #  | IOSTANDARD=LVCMOS18; # Bank  33 VCCO - VADJ     - IO_L13P_T2_MRCC_33
+NET  output<7>     LOC = P17;  #  | IOSTANDARD=LVCMOS18; # Bank  13 VCCO - VADJ     - IO_L24N_T3_13
+NET  output[*] IOSTANDARD = LVCMOS25;

@@ -1,0 +1,100 @@
+Return-Path: ted.obuchowicz@concordia.ca
+Delivery-Date: Tue Oct  1 12:57:23 2019
+Return-Path: <ted.obuchowicz@concordia.ca>
+Received: from oldperseverance.encs.concordia.ca (root@oldperseverance.encs.concordia.ca [132.205.96.92])
+	by oldtact.encs.concordia.ca (8.14.5/8.14.5) with ESMTP id x91GvNO4017101
+	for <ted@ece.concordia.ca>; Tue, 1 Oct 2019 12:57:23 -0400
+Received: from clyde.concordia.ca (clyde.concordia.ca [132.205.1.11] port 4738)
+	by oldperseverance.encs.concordia.ca (envelope-from ted.obuchowicz@concordia.ca) (8.13.7/8.13.7) with ESMTP id x91GvNFl026241
+	for <ted@ece.concordia.ca>; Tue, 1 Oct 2019 12:57:23 -0400
+Received: from ums-loy-gw1.concordia.ca (ums-loy-gw1.concordia.ca [132.205.157.20] port 55140)
+	by clyde.concordia.ca (envelope-from ted.obuchowicz@concordia.ca) (8.15.2/8.15.2) with ESMTPS id x91GvM0T008861
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA256 bits=256 verify=FAIL)
+	for <ted@ece.concordia.ca>; Tue, 1 Oct 2019 12:57:22 -0400
+Received: from ac-prabl25.concordia.ca (ac-prabl25.concordia.ca [132.205.217.83])
+	by ums-loy-gw1.concordia.ca  with ESMTP id x91GvIwB003606-x91GvIwC003606;
+	Tue, 1 Oct 2019 12:57:19 -0400
+Date: Tue, 1 Oct 2019 12:57:18 -0400
+From: ted.obuchowicz@concordia.ca
+To: ted.obuchowicz@concordia.ca
+Cc: marcalexc@arenthil.net, josh.glazer@spaceconcordia.ca,
+        haratiank2@gmail.com, ted@ece.concordia.ca
+Message-ID: <323219295.1.1569949038841.JavaMail.psft@ac-prabl25>
+Subject: COEN 317 Prealb 2 and Lab 2 and the dangers of "copy and paste"
+ from PDF
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.58 on oldperseverance.encs.concordia.ca at 2019-10-01 12:57:23 EDT
+X-Scanned-By: MIMEDefang 2.79 on 132.205.1.11
+
+Sent by Bcc: to all students registered in COEN 317/2 Sec. U Fall 2019
+
+(This may appear as a lengthy email, but i you should all read it,
+TLDR definitely does NOT apply in this case)
+
+
+Hello,
+
+There is a prelab associate with COEN 317 Lab 2. The prelab is meant to provide more information on AXI GPIO ports which are used in the main part
+of Lab 2. The prelab and Lab 2 documents are in:
+
+/home/t/ted/PUBLIC/COEN317/Lab2
+
+-rw-r--r-- 1 ted ted    59358 Sep  8  2016 Lab2.pdf
+-rw-r--r-- 1 ted ted   294210 Sep  8  2016 Prelab2.pdf
+
+The directory also contains the AXI_GPIO datasheet, the VHDL
+code for the AND gate, and a main.cc file used as a template
+for the Lab 2 source code.
+
+It is strongly suggested that you read ALL of the lab materials ahead of
+each of the 5 labs. You are strongly encouraged to start designing your
+systems using XPS, PlanAhead, and SDK ahead of time as much as
+possible for each of the 5 labs.
+
+In particular, for Lab 2, you should read and understand the information
+found in Prelab2.pdf as it will help you perform Lab 2 .  Although there are
+a set of 2 questions at the end of Prelab 2, you are not required to write
+the code for these questions nor are you required to design any system
+for these questions. 
+
+My apologies to the students in COEN 317 Lab UI who were not informed
+of the existence of a prelab for Lab 2 .
+
+
+And now a word about the dangers of "copy and paste" from a PDF directly
+into an ASCCI text source code editor. 
+
+Every year, I hear from COEN 317 students or from the lab TAs about
+source code not compiling for no obvious reason. In variable, when asked
+the question "did you by any chance copy and paste the C++ code
+from the PDF of the lab handout" , the answer is "Yes, I copied and
+pasted from the PDF" into the editor pane of SDK (instead of typing it
+in the old-fashioned way, or copying some main.cc ASCII text file which
+is part of the ~/PUBLIC/COEN317 repository". DO NOT COPY AND
+PASTE CODE FROM AC PDF INTO AN ASCII TEXT EDITOR. 
+
+The reason is that PDF saves in Unicode, whereas compiler expect
+source code to be in ASCII text format. Unicode uses 2 byes of data for
+every character, and ASCII uses 1 byte.  Moreover,  the 2bytes of Unicode for a PDF "smartquote" (it looks different from an ASCII quote if one looks
+very carefully at it) are different form the single byte of ASCII text for a ":
+
+ASCII " = 22 hex
+PDF " =  e2 89 (hex)
+
+As soon as the PDF " is parsed by the compiler, bang! an weird
+compile time error is generated since the #include header file was never
+read improperly.
+
+Moralof the story, always type in your source code, and if you have to
+copy at least copy from an ASCII text source and not a PDF. 
+
+Regards,
+
+Ted Obuchowicz
+
+
+
+TLDR: An acronym popular among the younger generation, when faced with a long online article (anything longer than 140 twitter characters is considered long) , they say "it was TLDR" (it was too long, didn't read it"
+LOL, )
