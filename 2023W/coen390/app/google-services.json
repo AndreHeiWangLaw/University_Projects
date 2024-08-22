@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "772361616598",
+    "firebase_url": "https://hydromind-auto-default-rtdb.firebaseio.com",
+    "project_id": "hydromind-auto",
+    "storage_bucket": "hydromind-auto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772361616598:android:12a81afce91a3dbca79d77",
+        "android_client_info": {
+          "package_name": "com.hydroponics.hydromind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772361616598-r28ma7bvd7ncv27f028b24aqpgkr4e8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbuxBuggZ43By8BNrDaVhGjxjFBRC2BqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772361616598-r28ma7bvd7ncv27f028b24aqpgkr4e8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

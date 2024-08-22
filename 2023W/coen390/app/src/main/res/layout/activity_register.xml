@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register To"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#006C51"
+            android:fontFamily="@font/poppins"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/hydroMind"
+            app:srcCompat="@drawable/hydromind_5"
+
+            android:layout_below="@id/login_text"
+            android:maxWidth="180dp"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#555555"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/full_name"
+            android:layout_below="@+id/hydroMind"
+            android:text="Full Name *"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullName_editText"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPersonName"
+            android:hint="Enter Full Name here..."
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:layout_below="@+id/full_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#555555"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/email"
+            android:layout_below="@+id/fullName_editText"
+            android:text="Email *"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_editText"
+            android:hint="Enter Email here..."
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"
+            android:layout_below="@+id/email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#555555"
+            android:id="@+id/password"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/email_editText"
+            android:text="Password *"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_editText"
+            android:hint="Choose Password here..."
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"
+            android:layout_below="@+id/password"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#555555"
+            android:id="@+id/confirm_password"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/password_editText"
+            android:text="Confirm Password *"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmPassword_editText"
+            android:hint="Confrim Password here..."
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"
+            android:layout_below="@+id/confirm_password"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            app:cornerRadius="20dp"
+            android:layout_marginRight="70dp"
+            android:layout_below="@+id/confirmPassword_editText"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register"
+            android:id="@+id/registerButton"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

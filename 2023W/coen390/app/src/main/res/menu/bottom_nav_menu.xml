@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Dashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:id="@+id/nav_dashboard"/>
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/nav_home"/>
+    <item android:title="@string/Control_Panel"
+        android:icon="@drawable/control_icon"
+        android:id="@+id/nav_cp"/>
+</menu>

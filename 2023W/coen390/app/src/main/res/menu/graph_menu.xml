@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sample_10"
+        android:title="Last 10 Samples"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sample_30"
+        android:title="Last 30 Samples"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sample_50"
+        android:title="Last 50 Samples"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_historical_view"
+        android:title="Historical View"
+        app:showAsAction="never" />
+</menu>

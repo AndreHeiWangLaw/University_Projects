@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HydroMind</string>
+    <string name="tds">TDS:</string>
+    <string name="here_s_an_overview_of_your_hydroponics_system">Here\'s an overview of your hydroponics system:</string>
+    <string name="loading">Loading…</string>
+    <string name="_0000_0">0000.00</string>
+    <string name="ph">pH:</string>
+    <string name="_00_00">00.00</string>
+    <string name="air_temp">Air Temp:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="view_system_s_all_time_data">View System\'s data</string>
+    <string name="Control_Panel">Control Panel</string>
+    <string name="system_s_dosing">System\'s Control</string>
+    <string name="plants_wiki">Plants wiki</string>
+    <string name="general_plants_information">General plants Information</string>
+    <string name="alerts">Alerts</string>
+    <string name="system_s_notifications">System\'s Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="account_information">Account Information:</string>
+</resources>

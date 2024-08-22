@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Image -->
+    <item>
+        <bitmap android:src="@drawable/live_feed_bg" />
+    </item>
+
+    <!-- Semi-transparent white layer with blur effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#99FFFFFF" />
+        </shape>
+    </item>
+
+</layer-list>

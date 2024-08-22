@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphViewActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Plots"
+            android:backgroundTint="@color/teal_900"
+            android:fontFamily="@font/poppins"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/temp_hum_chart"
+            android:layout_below="@id/toggleButton1"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/selectedValue_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp_hum_chart"
+            android:text="Selected Value: "
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/poppins" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/graphValue1"
+            android:layout_below="@id/temp_hum_chart"
+            android:layout_toRightOf="@id/selectedValue_text1"
+            android:hint="Selected Value"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/poppins" />
+
+        <TextView
+            android:id="@+id/timestamp_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectedValue_text1"
+            android:text="Timestamp: "
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/poppins" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timestamp1"
+            android:layout_below="@id/selectedValue_text1"
+            android:layout_toRightOf="@id/timestamp_text1"
+            android:hint="Timestamp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/poppins" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

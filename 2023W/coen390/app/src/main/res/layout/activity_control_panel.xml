@@ -1,0 +1,409 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:id="@+id/editButton"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#6A018786"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveButton"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#BA018786"
+        app:cornerRadius="20dp"
+        android:visibility="gone"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- ScrollView in the center -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation">
+
+        <RelativeLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Control Panel"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:fontFamily="@font/poppins" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/title_text"
+            android:outlineProvider="background"
+            app:cardBackgroundColor="#40AEAEAE"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="16dp"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/txt_tds_title"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="TDS"
+                    android:textColor="#000"
+                    android:textSize="40sp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/txt_tds_sensor_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/txt_tds_title"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+                    android:maxLength="6"
+                    android:fontFamily="@font/digital_7_mono"
+                    android:gravity="center"
+                    android:text="@string/_0000_0"
+                    android:textColor="#004C6A"
+                    android:textSize="40sp"
+                    android:layout_centerHorizontal="true"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_manual_tds_btns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_tds_sensor_value"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/up_tds"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/uparrowbold"
+                        android:textOff=""
+                        android:textOn=""
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/down_tds"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/downarrowbold"
+                        android:textOff=""
+                        android:textOn=""
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/minTds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_manual_tds_btns"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Min. ppm: "
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/minTdsLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_manual_tds_btns"
+                    android:layout_marginStart="0dp"
+                    android:maxLength="4"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@id/minTds"
+                    android:fontFamily="@font/digital_7_mono"
+                    android:hint="0000.00" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maxTds"
+                    android:text="Max. ppm: "
+                    android:layout_marginTop="11dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/minTds"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/minTds"
+                    android:layout_below="@id/minTdsLimit"
+                    android:inputType="numberDecimal"
+                    android:enabled="false"
+                    android:maxLength="4"
+                    android:id="@+id/maxTdsLimit"
+                    android:hint="0000.00"
+                    android:fontFamily="@font/digital_7_mono"/>
+
+                <Switch
+                    android:id="@+id/btn_tds_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/maxTds"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:text="TDS Automation" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phCard"
+            android:layout_below="@id/title_text"
+            app:cardElevation="0dp"
+            android:outlineProvider="background"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#40AEAEAE"
+            app:cardCornerRadius="16dp"
+            android:layout_alignParentRight="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/txt_ph_title"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="pH"
+                    android:textColor="#000"
+                    android:textSize="40sp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/txt_ph_sensor_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/txt_ph_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/digital_7_mono"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:maxLength="4"
+                    android:textColor="#004C6A"
+                    android:textSize="40sp"
+                    android:layout_centerHorizontal="true"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_manual_ph_btns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_ph_sensor_value"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/up_ph"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/uparrowbold"
+                        android:textOff=""
+                        android:textOn=""
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/down_ph"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/downarrowbold"
+                        android:textOff=""
+                        android:textOn=""
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/minPh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_manual_ph_btns"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="15dp"
+                    android:text="Min. pH: "
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/minPh"
+                    android:id="@+id/minPhLimit"
+                    android:enabled="false"
+                    android:maxLength="4"
+                    android:inputType="numberDecimal"
+                    android:layout_below="@id/layout_manual_ph_btns"
+                    android:layout_marginTop="8dp"
+                    android:hint="00.00"
+                    android:fontFamily="@font/digital_7_mono"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maxPh"
+                    android:fontFamily="@font/poppins"
+                    android:text="Max. pH: "
+                    android:layout_marginTop="11dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/minPh"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/minPh"
+                    android:layout_below="@id/minPhLimit"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/maxPhLimit"
+                    android:enabled="false"
+                    android:maxLength="4"
+                    android:hint="00.00"
+                    android:fontFamily="@font/digital_7_mono"/>
+
+                <Switch
+                    android:id="@+id/btn_ph_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/maxPh"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12sp"
+                    android:text="ph Automation" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose a sensor to plot live feed on the graph: "
+                android:fontFamily="@font/poppins"
+                android:layout_below="@id/phCard"
+                android:layout_marginStart="10dp"
+                android:id="@+id/text"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonGraph"
+            android:gravity="center">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textColor="#005EFF"
+                android:id="@+id/tdsToggle"
+                android:fontFamily="@font/poppins"
+                android:checked="true"
+                android:textOff="TDS"
+                android:textOn="TDS"
+                android:background="@null" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:layout_toEndOf="@id/tdsToggle"
+                android:id="@+id/phToggle"
+                android:fontFamily="@font/poppins"
+                android:textOff="pH"
+                android:textOn="pH"
+                android:background="@null" />
+
+        </RelativeLayout>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/tds_pH_chart"
+                android:layout_below="@id/buttonGraph"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <!-- BottomNavigationView at the bottom -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</RelativeLayout>

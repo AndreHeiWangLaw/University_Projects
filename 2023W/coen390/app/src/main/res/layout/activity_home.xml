@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background16"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/loading"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppins" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_system_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/welcomeText"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#10000000"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imgbtn_nav_left"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/nav_arrow_left"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_currentsystem_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="You are currently in:\nHydroponics System A"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_nav_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/nav_arrow_right"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/liveFeed"
+        app:cardBackgroundColor="#10000000"
+        app:cardElevation="0dp"
+        android:layout_below="@+id/card_system_navigation"
+        app:cardCornerRadius="8dp"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/card_livedata"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tds"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:id="@+id/tdsIcon"
+                android:layout_below="@id/tds"
+                android:background="@drawable/tds"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tdsSensorValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="25dp"
+                android:layout_alignBottom="@id/phSensorValue"
+                android:layout_toEndOf="@id/tdsIcon"
+                android:fontFamily="@font/digital_7_mono"
+                android:text="@string/_0000_0"
+                android:textColor="#004C6A"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/ph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ph"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/tdsSensorValue"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:id="@+id/phIcon"
+                android:background="@drawable/ph"
+                android:layout_toEndOf="@id/tdsSensorValue"
+                android:layout_alignBottom="@id/tdsIcon"
+                android:layout_marginStart="13dp"
+                android:layout_below="@id/ph"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/phSensorValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/digital_7_mono"
+                android:text="@string/_00_00"
+                android:layout_below="@id/ph"
+                android:layout_toEndOf="@id/phIcon"
+                android:layout_marginTop="2dp"
+                android:textColor="#004C6A"
+                android:textSize="19sp"
+                android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/airTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/air_temp"
+            android:layout_toEndOf="@id/phSensorValue"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/airTempIcon"
+            android:layout_toEndOf="@id/phSensorValue"
+            android:layout_below="@id/ph"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/temp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/airTempValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/digital_7_mono"
+            android:layout_toEndOf="@id/airTempIcon"
+            android:layout_marginStart="3dp"
+            android:layout_alignBottom="@id/phSensorValue"
+            android:text="@string/_00_00"
+            android:textColor="#004C6A"
+            android:textSize="19sp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/humidity"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/airTempValue"
+            android:fontFamily="@font/poppins"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="15dp"
+            android:id="@+id/HumidityIcon"
+            android:layout_below="@id/Humidity"
+            android:layout_toEndOf="@id/airTempValue"
+            android:background="@drawable/humidity"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/HumidityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/digital_7_mono"
+            android:layout_toEndOf="@id/HumidityIcon"
+            android:layout_alignBottom="@id/airTempValue"
+            android:text="@string/_00_00"
+            android:textColor="#004C6A"
+            android:textSize="19sp"
+            android:layout_gravity="center_vertical" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="205dp"
+        android:layout_height="300dp"
+        android:id="@+id/dashboard"
+        app:cardBackgroundColor="#8F000000"
+        android:layout_below="@+id/liveFeed"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        app:cardElevation="0dp"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFF">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/dashboard_icon"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/dashboardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="@string/dashboard"
+                android:layout_above="@id/dashDesc"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins"/>
+
+            <TextView
+                android:id="@+id/dashDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:text="@string/view_system_s_all_time_data"
+                android:textSize="13sp"
+                android:fontFamily="@font/poppins"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#8F000000"
+        android:id="@+id/status"
+        android:layout_toEndOf="@id/dashboard"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/liveFeed"
+        app:cardCornerRadius="8dp"
+        android:clickable="true"
+        app:cardElevation="0dp"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/control_icon"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="@string/Control_Panel"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_above="@id/cpDesc"
+                android:fontFamily="@font/poppins"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/cpDesc"
+                android:text="@string/system_s_dosing"
+                android:textSize="13sp"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/poppins"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="205dp"
+        android:layout_height="145dp"
+        android:id="@+id/plantsWiki"
+        android:layout_alignBottom="@id/alerts"
+        app:cardBackgroundColor="#8F000000"
+        app:cardCornerRadius="8dp"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        app:cardElevation="0dp"
+        android:focusable="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/plants"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/plantsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="@string/plants_wiki"
+                android:layout_above="@id/wiki"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wiki"
+                android:fontFamily="@font/poppins"
+                android:layout_alignParentBottom="true"
+                android:text="@string/general_plants_information"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="245dp"
+        android:id="@+id/alerts"
+        android:layout_toEndOf="@id/dashboard"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/status"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#8F000000"
+        app:cardCornerRadius="8dp"
+        android:clickable="true"
+        app:cardElevation="0dp"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/alert_icon"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/txt_numAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="0"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textAllCaps="true"
+                android:textColor="#858585"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/alertText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="@string/alerts"
+                android:layout_above="@id/notis"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/notis"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/poppins"
+                android:text="@string/system_s_notifications"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/settings"
+        android:layout_alignStart="@id/plantsWiki"
+        android:layout_below="@id/plantsWiki"
+        app:cardBackgroundColor="#8F000000"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        app:cardElevation="0dp"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/settings_icon"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/settingsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:layout_above="@id/settingsDesc"
+                android:text="@string/settings"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settingsDesc"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_settings"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
