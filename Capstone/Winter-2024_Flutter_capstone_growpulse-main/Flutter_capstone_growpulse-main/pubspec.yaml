@@ -1,0 +1,40 @@
+name: flutter_capstone_growpulse
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.5
+  cloud_firestore: ^4.15.9
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.40.0
+  firebase_database: ^10.0.0
+  intl: ^0.17.0
+  firebase_storage: ^11.6.10
+  url_launcher: ^6.0.20
+  material_design_icons_flutter: ^5.0.6595
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+  
