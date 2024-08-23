@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ESDA14V2SC6
+D TVS Diode Array Uni-Directional ESDA14V2SC6 Quad, 300W, SOT-23 6-Pin
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00002055.pdf
+$ENDCMP
+#
+$CMP SMS12T1G
+D Quad Uni-Directional TVS Diode, 350W peak, 6-pin SC-74
+K
+F http://www.onsemi.com/pub/Collateral/SMS05T1-D.PDF
+$ENDCMP
+#
+$CMP ESDA14V2SC5
+D Quad Transil&#8482; array for ESD protection
+K
+F https://www.st.com/resource/en/datasheet/esda14v2sc5.pdf
+$ENDCMP
+#
+$CMP 52437-2491
+D FFC & FPC Connectors RA SMT ZIF BOTTOM 24 bottom contact style
+K
+F https://www.molex.com/pdm_docs/sd/524372491_sd.pdf
+$ENDCMP
+#
+$CMP SN65HVS880PWPR
+D 8-input, nominal 24-V digital-input serializer for industrial digital inputs
+K
+F http://www.ti.com/lit/ds/slas592c/slas592c.pdf
+$ENDCMP
+#
+$CMP SN65HVS883PWPR
+D 34 V, Eight-Channel Digital-Input Serializer
+K
+F http://www.ti.com/lit/gpn/sn65hvs883
+$ENDCMP
+#
+#End Doc Library

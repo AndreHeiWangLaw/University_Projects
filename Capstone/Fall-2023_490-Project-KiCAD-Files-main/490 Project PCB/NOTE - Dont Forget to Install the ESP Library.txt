@@ -1,0 +1,2 @@
+Don't forget to install the ESP32 Library under "/490 Project PCB/CAD Models/ESP32 MCUs/espressif-kicad-addon.zip"
+Install it via the KiCAD Package Manager with "Install from File" button.

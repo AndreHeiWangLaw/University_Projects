@@ -1,0 +1,42 @@
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+/*/*-backups/*.zip
+/490 Project PCB/CAD Models/Connectors/*/*.zip
+/490 Project PCB/CAD Models/ESD Module/*/*.zip
+/490 Project PCB/CAD Models/ESP32 MCUs/*/*.zip
+/490 Project PCB/CAD Models/RELAY/*/*.zip
+/490 Project PCB/CAD Models/USB-PD/*/*.zip
+/490 Project PCB/CAD Models/VREG/*/*.zip
+/**/exclude/*.*
+/490 Project PCB/CAD Models/VREG/*.zip
+/490 Project PCB/CAD Models/RELAY/*.zip
+/490 Project PCB/CAD Models/Buttons/*.zip
+/490 Project PCB/CAD Models/LEVEL SHIFT/*.zip

@@ -1,0 +1,12 @@
+4 * 2 Dosing Pump = 8 pin
+4 * 4 Sensor = 16 pin
+2 * 2 AC for Pumps  = 4 pin
+16 for Camera = 16 pin
+= 44pin
+
+2 * 16
++
+1 * 12
+
+1 USB-C
+1 Barrel Plug

@@ -1,0 +1,40 @@
+Plugin v0.0.1 running on KiCad 7.0.7 and Python 3.9.16 (main, Aug  8 2023, 05:38:28) [MSC v.1936 64 bit (AMD64)] on win32.
+Imported C:\Users\berdl\OneDrive\Academia\2023 Automne\ENGR 490 - Capstone\Project\KiCAD\490 Project\490 Project PCB\490 Project PCB.kicad_pcb, with 35 footprints, 0 tracks, and 0 drawings.
+ (+ PCB C:\Users\berdl\OneDrive\Academia\2023 Automne\ENGR 490 - Capstone\Project\KiCAD\490 Project\490 Project PCB\490 Project PCB.kicad_pcb)
+├─ Connectors Interface
+PCB C:\Users\berdl\OneDrive\Academia\2023 Automne\ENGR 490 - Capstone\Project\KiCAD\490 Project\490 Project PCB\490 Project PCB.kicad_pcb
+  /3962ea05: C1
+  /23d87801/980cf314: D2
+  /94dbcc6e: J1
+  /b48c642b: R5
+  /23d87801/6c764eff: R8
+  /8a2d6694: J2
+  /b1b1a370: C2
+  /23d87801/341ddbef: D3
+  /23d87801/98717cdb: J10
+  /903ef8ec: R4
+  /23d87801/61598efa: J4
+  /23d87801/286f0122: D4
+  /23d87801/b004c153: J3
+  /23d87801/bd8b6928: R7
+  /e3322a4e: C4
+  /23d87801/bb17500c: J8
+  /fd17c966: R1
+  /b330dcd9: C5
+  /1ec34f31: R2
+  /23d87801/98a75e4f: U3
+  /742c1f0d: R6
+  /23d87801/0a0f68cc: J11
+  /23d87801/e5abbd8c: J7
+  /f04399a3: JP1
+  /23d87801/63051ed3: J6
+  /23d87801/06894caa: J5
+  /be93f431: C3
+  /23d87801/29ab8eeb: C7
+  /23d87801/5f0f8c70: U2
+  /23d87801/bda3d4a9: J9
+  /0c764c99: SW1
+  /623f2b90: C6
+  /1af5d196: R3
+  /24c7e422: U1
+  /23d87801/1ce95f37: D1
