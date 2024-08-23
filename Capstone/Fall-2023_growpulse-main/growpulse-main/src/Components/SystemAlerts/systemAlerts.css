@@ -1,0 +1,116 @@
+.system-alerts{
+    margin-left: 14rem;
+    margin-right: 10px;
+    transition: margin-left 0.3s ease;
+    margin-top: 6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebar-collapsed .system-alerts {
+    margin-left: 2rem;
+}
+
+.alerts-buttons{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.min-max-alerts{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.min-max-style{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.thresholds-alerts{
+    white-space: nowrap;
+}
+
+.alert-label{
+    font-size: 12px;
+}
+
+.alerts-table{
+    background-color: white;
+    overflow-y: auto;
+}
+
+.scroll-indicator{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.scroll-indicator h5{
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+  } 
+
+.scroll{
+    width: 16px;
+    margin-left: 1px;
+}
+
+.system-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-icon {
+    opacity: 0;
+    width: 20px;
+    margin-left: 10px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.alerts-table thead {
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.system-alerts tr:hover .settings-icon {
+    opacity: 1;
+}
+
+/*DARK MODE*/
+
+.system-alerts.dark-mode th {
+    border-color: #ffffffa2; 
+    background-color: #012e58;
+}
+
+.system-alerts.dark-mode tbody,  .system-alerts.dark-mode .alerts-table{
+    background-color: #003261c5;
+    color: #ffffff;
+}
+
+.system-alerts.dark-mode .scroll-indicator h5 {
+    color: #ffffff;
+}
+
+.system-alerts.dark-mode .scroll, .system-alerts.dark-mode .settings-icon{
+    filter: brightness(0) invert(1); 
+}
+
+.system-alerts.dark-mode .alert-label{
+    color: #ffffff !important;
+}
+

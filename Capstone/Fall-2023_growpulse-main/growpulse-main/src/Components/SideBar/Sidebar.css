@@ -1,0 +1,247 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 210px;
+    background: rgba(243, 243, 243, 0.99);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    font-family: 'Raleway', sans-serif;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+}
+
+.sidebar-collapsed {
+    left: -210px;
+}
+
+.sidebar h2{
+    color: #999999;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.sidebar h3{
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.h3-container {
+    flex-grow: 1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    font-size: 14px;
+    width: 105%;
+    margin-left: -5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.systems-number{
+    background-color: #868686;
+    border-radius: 5px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.sidebar a:hover {
+    color: rgba(98, 98, 98, 0.56);
+}
+
+.sidebar-icon {
+    width: 100px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.bullet-points{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.bullet-points a.active,
+.sidebar a.active {
+    color: #006cc4; 
+}
+
+.active-title {
+    color: #006cc4; 
+}
+
+.subtitle-icon{
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.system-icon{
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.expand {
+    width: 15px;
+    cursor: pointer;
+    margin-right: -10%;
+    margin-top: 5px;
+}
+
+.Dashboards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1px 10px;
+    position: relative;
+}
+
+.Schedules {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.Overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.Overview-link {
+    display: inline-flex;
+    margin-right: -10px;
+}
+
+.Overview-link h3{
+    margin-right: 50px;
+}
+
+.highlight {
+    width: 36px; 
+    height: 36px; 
+    background-color: rgba(184, 184, 184, 0.514); 
+    border-radius: 30%; 
+    z-index: -1;
+}
+  
+.system-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.system-letter {
+    font-size: 10px; 
+    color: #919191; 
+}
+
+.icon-container {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    left: -5%;
+    margin-top: 10px;
+}
+
+.all-systems-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.add-system-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #919191;
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.add-system-button:hover {
+    color: #000000;
+}
+
+.addSystem h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.system-container:hover .trash{
+    opacity: 1;
+}
+
+.icon-actions {
+    display: flex; 
+    gap: 10px;
+}
+
+/* Dark Mode*/
+.sidebar.dark-mode {
+    background: #002f5a; 
+    color: #fff; 
+    transition: all ease;
+}
+
+.sidebar.dark-mode .sidebar-icon,.sidebar.dark-mode .system-icon,.sidebar.dark-mode .subtitle-icon,.sidebar.dark-mode .expand,.sidebar.dark-mode .trash {
+    filter: brightness(0) invert(1); 
+}
+
+.sidebar.dark-mode a {
+    color: #ccc; 
+}
+
+.sidebar.dark-mode .highlight,
+.sidebar.dark-mode .system-letter,
+.sidebar.dark-mode .addSystem h2,
+.sidebar.dark-mode .add-system-button {
+    color: #ddd; 
+}
+
+.sidebar.dark-mode a:hover {
+    color: #fff; 
+}
+
+.sidebar.dark-mode .system-container:hover .trash {
+    opacity: 1; 
+}

@@ -1,0 +1,19 @@
+{
+    "Australia": { "coordinates": [133.775136, -25.274398] },
+    "Brazil": { "coordinates": [-51.92528, -14.235004] },
+    "Canada": { "coordinates": [-106.3468, 56.1304] },
+    "China": { "coordinates": [104.195397, 35.86166] },
+    "France": { "coordinates": [2.213749, 46.227638] },
+    "Germany": { "coordinates": [10.451526, 51.165691] },
+    "India": { "coordinates": [78.96288, 20.593684] },
+    "Japan": { "coordinates": [138.252924, 36.204824] },
+    "Lebanon": { "coordinates": [35.8623, 33.8547] },
+    "Mexico": { "coordinates": [-102.552784, 23.634501] },
+    "Netherlands": { "coordinates": [5.291266, 52.132633] },
+    "Russia": { "coordinates": [105.318756, 61.52401] },
+    "South Africa": { "coordinates": [22.937506, -30.559482] },
+    "Thailand": { "coordinates": [100.992541, 15.870032] },
+    "USA": { "coordinates": [-95.7129, 37.0902] },
+    "Ukraine": { "coordinates": [31.16558, 48.379433] },
+    "United Kingdom": { "coordinates": [-3.435973, 55.378051] }
+}

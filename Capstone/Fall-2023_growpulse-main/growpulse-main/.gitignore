@@ -1,0 +1,53 @@
+# Environment configuration files
+.env*
+*.env.local
+
+# Dependency directories
+/node_modules/
+
+# Debug log from npm
+npm-debug.log*
+
+# Yarn error logs
+yarn-debug.log*
+yarn-error.log*
+
+# Production build directory
+/build/
+
+# Local development directories
+/.pnp/
+.pnp.js
+
+# Coverage directory used by tools like istanbul or nyc
+/coverage/
+
+# Output files from TypeScript (if used)
+/dist/
+/build/
+/ts-build/
+
+# IDE/Editor directories
+/.vscode/
+/.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Generated files by TypeScript
+*.tsbuildinfo

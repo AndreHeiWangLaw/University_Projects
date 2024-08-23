@@ -1,0 +1,105 @@
+.settings{
+    margin-left: 14rem;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    margin-top: 6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebar-collapsed .settings {
+    margin-left: 2rem;
+}
+
+.account-settings{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.account-detail{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.current-value{
+    display: flex;
+    flex-basis: 20%;
+    margin-left: 15%;
+    align-content: center;
+    justify-content: center;
+}
+
+.account-settings input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(30, 30, 30, 0);
+}
+
+.user-input-settings{
+   flex-basis: 50%; 
+   width: 100%;
+}
+
+.username-input{
+    margin-bottom: -10px;
+}
+
+.account-settings span{
+    align-content: center;
+    justify-content: start;
+}
+
+.account-settings h4, .account-settings span{
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.update-button{
+    background-color: #818181;
+    color: #ffffff;
+    margin-left: 33%;
+    margin-top: 50px;
+    position: fixed;
+    border: rgba(204, 204, 204, 0);
+    border-radius: 50px;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, margin-left 0.3s ease;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-collapsed .update-button{
+    margin-left: 45%;
+    transition: margin-left 0.3s ease;
+}
+
+
+.account-info-id{
+    margin-right: 5rem;
+}
+
+.account-info{
+    color: #9b9b9b;
+}
+
+.uid{
+    margin-left: 6rem;
+}
+
+
+.update-button:hover{
+    background-color: #bb0000;
+}
+
+/*DARK MODE*/
+
+.settings.dark-mode h4, .settings.dark-mode span, .settings.dark-mode input{
+    color: #ffffff;
+}
