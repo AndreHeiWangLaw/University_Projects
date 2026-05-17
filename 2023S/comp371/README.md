@@ -1,6 +1,10 @@
 # Badminton Game
 
-## Watch the Video Demo
+## Demo Video
+https://github.com/user-attachments/assets/2ad27555-4233-43b1-a9c8-763e036b2cb8
 
-[![Hovercraft Test Video](https://vumbnail.com/1026960323.jpg)](https://vimeo.com/1026960323?h=a23459b5aa)
+
+
+
+
 
