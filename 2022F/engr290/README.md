@@ -7,4 +7,8 @@
 [![Hovercraft Test Video](https://vumbnail.com/1026932937.jpg)](https://vimeo.com/1026932937)
 
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/1026932937?h=9fc9588180" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+<p align="left">
+  <a href="https://youtube.com/shorts/NrhG0ZnjirY" target="_blank">
+    <img src="https://img.youtube.com/vi/NrhG0ZnjirY/0.jpg" alt="Watch YouTube Short" width="300" />
+  </a>
+</p>
